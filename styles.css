@@ -30,6 +30,7 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+  top: 0px
 }
 .nav {
   display: flex;
@@ -57,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/bay.jpg') no-repeat top center ;
+  background: url('images/rsz_bay.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -169,24 +170,6 @@ a.social:hover {
 
 /* Section Styles portfolio*/
 
-.portfolio {
-  text-align: center;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
-}
-
-.portfolio-nav {
-  width: 100%;
-  background: black;
-  min-height: 30px;
-  padding: 10px;
-  margin: 0px auto;
-  position: fixed;
-  text-align: center;
-  top: 0px;
-}
-
 .gallery img{
   margin-top: 3%;
   max-width: 80%;
@@ -223,16 +206,10 @@ a.social:hover {
   }
 
   .nav {
-    max-width: 1200px;
+    max-width: 1600px;
     padding: 0 30px;
   }
 
-.portNav {
-    max-width: 1200px;
-    padding: 60px 30px;
-    width: 100%;
-    
-  }
 
   main {
     padding-top: 20px;
